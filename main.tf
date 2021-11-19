@@ -2,7 +2,7 @@
 // Modules
 module "storageaccount" {
   source  = "app.terraform.io/GwendalPerso/storageaccount/azurerm"
-  version = "0.0.1"
+  version = "0.0.2"
 
   azure_location_vara = "West Europe"
   azure_rg_name = "rgsiwiorek1111"
